@@ -40,8 +40,8 @@ RUN set -x \
 
 FROM build_stage AS bullseye-base
 
-ENV CS2_SERVERNAME="cs2 private server" \
-    CS2_CHEATS=0 \
+ENV CS2_SERVERNAME="Monga CS2" \
+    CS2_CHEATS=1 \
     CS2_IP=0.0.0.0 \
     CS2_SERVER_HIBERNATE=0 \
     CS2_PORT=27015 \
@@ -50,10 +50,10 @@ ENV CS2_SERVERNAME="cs2 private server" \
     CS2_RCONPW="changeme" \
     CS2_PW="changeme" \
     CS2_MAPGROUP="mg_active" \    
-    CS2_STARTMAP="de_inferno" \
+    CS2_STARTMAP="de_mirage" \
     CS2_GAMEALIAS="" \
     CS2_GAMETYPE=0 \
-    CS2_GAMEMODE=1 \
+    CS2_GAMEMODE=0 \
     CS2_LAN=0 \
     TV_AUTORECORD=0 \
     TV_ENABLE=0 \
